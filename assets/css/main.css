@@ -694,6 +694,12 @@ section,
   position: relative;
 }
 
+.section-title-np {
+  text-align: center;
+  padding-bottom: 0px;
+  position: relative;
+}
+
 .section-title h2 {
   font-size: 32px;
   font-weight: 700;
@@ -2356,3 +2362,36 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.highlight-box {
+  padding: 3rem;
+  border-radius: 16px;
+  background-color: #f9f9fb;
+  border: 1px solid #e0e0e5;
+  overflow: hidden;
+}
+
+@media (max-width: 767.98px) {
+  .highlight-box {
+    padding: 2rem 1rem; /* top-bottom, left-right */
+  }
+}
+
+.btn-rounded-outline {
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 0.75rem 2rem;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-rounded-outline:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  text-decoration: none;
+}
+
